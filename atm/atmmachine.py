@@ -39,7 +39,7 @@ def log_in():
         else:
             print("Invalid pin")
             tries += 1
-    print("To many incorrect tries. Could not log in")
+    print("Too many incorrect tries. Could not log in.")
     return False
 
 def main_menu():
